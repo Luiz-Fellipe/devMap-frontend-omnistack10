@@ -9,12 +9,34 @@ li.dev-item header {
  display: flex;
  flex-direction: row;
  align-items: center;
+ 
 }
 
 li.dev-item header img {
  width: 54px;
  height: 54px;
  border-radius: 50%;
+}
+
+li.dev-item .group-button{
+ margin-left: 40px;
+}
+
+ li.dev-item .delete-button {
+ cursor: pointer;
+ font-size: 13px;
+ font-weight: bold;
+ border: 0.7px solid #B22222;
+ align-self: center;
+ padding: 5px;
+ color: #B22222;
+ background: none;
+ transition: all 0.5s;
+}
+
+li.dev-item .delete-button:hover {
+ color: #8B0000;
+ border: 0.7px solid #8B0000;
 }
 
 li.dev-item header .user-info {
