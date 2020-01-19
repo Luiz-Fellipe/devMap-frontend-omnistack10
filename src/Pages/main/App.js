@@ -37,7 +37,7 @@ function App() {
   }
 
   async function loadDeleteDevs() {
-    loadDevs();
+    await loadDevs();
   }
 
   return (
